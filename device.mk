@@ -51,6 +51,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     nfc.honami
 
+# Ubuntu Overlay Files
+#
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/ubuntu/70-android.rules:system/halium/lib/udev/rules.d/70-android.rules \
+    $(DEVICE_PATH)/ubuntu/android.conf:system/halium/etc/ubuntu-touch-session.d/android.conf
+
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREBUILT_DPI := xxhdpi xhdpi hdpi
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
