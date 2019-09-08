@@ -21,6 +21,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 PRODUCT_NAME := aosp_c6903
 PRODUCT_DEVICE := honami
-PRODUCT_MODEL := Xperia Z1 (AOSP)
+PRODUCT_MODEL := Xperia Z1
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
